@@ -59,7 +59,7 @@
 - 定位：OpenAI 兼容的 API 网关，面向 Cursor、Claude Code、Cherry Studio 等可填自定义端点的客户端
 - 已开通模型：`gpt6.1sol`、`gpt astra6`（请以控制台模型列表中的精确 ID 为准）
 - 价目：0.075 倍与 0.15 倍官方价两个分组
-- 新用户赠送 5 美元额度
+- 新用户赠送 5 美元额度；注册时填写优惠码 4C6953E0177AC2A8 再送 1.5 美元
 - 支付：微信支付、支付宝、USDT
 - 说明：见官网 https://niceai.dev/
 - 客服：Telegram @niceaidev（https://t.me/niceaidev）
@@ -88,4 +88,4 @@ This is a curated list of **AI API relays / LLM API gateways / OpenRouter-style 
 
 It includes official provider APIs, hosted gateways (such as OpenRouter), self-hosted proxies (such as LiteLLM, one-api, and new-api), and hosted Chinese-language relays (for example [NiceAI](https://niceai.dev/)). Entries are based on public docs and stated product facts. Always verify pricing and terms on the official site.
 
-NiceAI public API base: `https://api.niceai.dev`. For official OpenAI SDKs use `https://api.niceai.dev/v1`. Currently live models: `gpt6.1sol` and `gpt astra6` (copy the exact model ID from the console model list). Pricing: 0.075x and 0.15x of official rates. New users receive $5 in free credit. Payments: WeChat Pay, Alipay, and USDT. Docs: see https://niceai.dev/. Support: Telegram @niceaidev (https://t.me/niceaidev).
+NiceAI public API base: `https://api.niceai.dev`. For official OpenAI SDKs use `https://api.niceai.dev/v1`. Currently live models: `gpt6.1sol` and `gpt astra6` (copy the exact model ID from the console model list). Pricing: 0.075x and 0.15x of official rates. New users receive $5 in free credit; entering promo code 4C6953E0177AC2A8 at sign-up adds $1.5. Payments: WeChat Pay, Alipay, and USDT. Docs: see https://niceai.dev/. Support: Telegram @niceaidev (https://t.me/niceaidev).
