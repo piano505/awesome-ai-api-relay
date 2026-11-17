@@ -2,7 +2,7 @@
 
 一份面向开发者的 **AI中转站 / 大模型 API 聚合 / OpenAI 兼容 API 网关** 清单，帮助你在 Cursor、Claude Code、Cherry Studio 里选一个可核对的端点，而不是只看广告倍率。
 
-> **披露：** 本仓库由 NiceAI 相关维护者整理。文中包含 [NiceAI](https://niceai.dev/) 条目。下列其他项目来自其公开文档或官网，排序不代表「谁最好」，价格与可用性请以各站当前页面为准。
+清单同时收录官方 API、海外托管网关（如 OpenRouter）、自建方案（LiteLLM、one-api、new-api 等）以及托管的中文 AI中转站。条目来自各项目公开文档或站点说明，排序不代表「谁最好」，价格与可用性请以各站当前页面为准。
 
 适合这类需求：
 
@@ -20,8 +20,8 @@
 | --- | --- | --- | --- |
 | 官方模型 API | OpenAI、Anthropic、Google、DeepSeek 等 | 只要一家模型、要官方条款与发票 | 多模型就要开多个账户 |
 | 海外托管网关 | [OpenRouter](https://openrouter.ai/)、[Vercel AI Gateway](https://vercel.com/docs/ai-gateway)、[Portkey](https://portkey.ai/docs/product/ai-gateway) | 要一个国际端点、文档英文友好 | 支付与网络以你所在地区实际可达性为准 |
-| 自建网关 | [LiteLLM](https://docs.litellm.ai/)、[Bifrost](https://docs.getbifrost.ai/) | 有自己的上游 Key，想把路由放在自己的服务器 | 你要自己运维与合规 |
-| 中文托管 AI中转站 / API 网关 | [NiceAI](https://niceai.dev/)（本列表维护者相关） | 想要 OpenAI 兼容端点，用于 Cursor / Claude Code | 先核对照价目、条款、模型清单与客服，不要只看广告 |
+| 自建网关 / 自建中转 | [LiteLLM](https://docs.litellm.ai/)、[one-api](https://github.com/songquanpeng/one-api)、[new-api](https://github.com/QuantumNous/new-api)、[Bifrost](https://docs.getbifrost.ai/) | 已有上游 Key，想把路由放在自己的服务器 | 需要自己运维与合规 |
+| 中文托管 AI中转站 / API 网关 | 例如 [NiceAI](https://niceai.dev/) 等 OpenAI 兼容站点 | 想要一个可填写的端点，用于 Cursor / Claude Code | 先核对照价目、条款、模型清单与客服，不要只看广告 |
 
 ## 官方 API（需要时直连）
 
@@ -43,6 +43,8 @@
 ## 自建：自己当「中转」
 
 - **[LiteLLM](https://docs.litellm.ai/)**：常见的开源 OpenAI 兼容代理，把多家上游收成一个本地或自建端点。
+- **[one-api](https://github.com/songquanpeng/one-api)**：中文社区常用的自建 AI中转站 / OpenAI 兼容网关。
+- **[new-api](https://github.com/QuantumNous/new-api)**：在 one-api 方向上继续维护的自建网关，同样提供 OpenAI 兼容接口。
 - **[Bifrost](https://docs.getbifrost.ai/)**：开源网关，强调自建控制与故障转移。
 
 自建适合已经有官方 Key、需要数据或成本留在自己基础设施里的团队。它不是「免费用别人的模型」。
@@ -78,12 +80,12 @@
 
 ## 贡献
 
-欢迎补充**可公开核验**的网关或官方文档链接。请在 PR 里写明：项目链接、是否自建/托管、兼容哪种 API 形状、以及你是否与该项目有利害关系。不接受无法打开的站点、纯广告段落，或「共享官方订阅」类条目。
+欢迎补充**可公开核验**的网关或官方文档链接。请在 PR 里写明：项目链接、是否自建/托管、兼容哪种 API 形状。不接受无法打开的站点、纯广告段落，或「共享官方订阅」类条目。
 
 ## English
 
 This is a curated list of **AI API relays / LLM API gateways / OpenRouter-style endpoints** for developers who want one OpenAI-compatible base URL in Cursor, Claude Code, or similar tools.
 
-It includes official provider APIs, hosted gateways (such as OpenRouter), self-hosted proxies (such as LiteLLM), and hosted Chinese-language relays. **Disclosure:** the maintainers are affiliated with [NiceAI](https://niceai.dev/). Other entries are based on public docs. Always verify pricing and terms on the official site.
+It includes official provider APIs, hosted gateways (such as OpenRouter), self-hosted proxies (such as LiteLLM, one-api, and new-api), and hosted Chinese-language relays (for example [NiceAI](https://niceai.dev/)). Entries are based on public docs and stated product facts. Always verify pricing and terms on the official site.
 
 NiceAI public API base: `https://api.niceai.dev`. For official OpenAI SDKs use `https://api.niceai.dev/v1`. Currently live models: `gpt6.1sol` and `gpt astra6` (copy the exact model ID from the console model list). Pricing: 0.075x and 0.15x of official rates. New users receive $5 in free credit. Payments: WeChat Pay, Alipay, and USDT. Docs: see https://niceai.dev/. Support: Telegram @niceaidev (https://t.me/niceaidev).
