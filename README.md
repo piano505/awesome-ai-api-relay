@@ -70,6 +70,13 @@
 - [Cursor / Claude Code / Cherry Studio 教程](https://github.com/YOUR_GITHUB_USERNAME/cursor-claude-code-ai-api-setup)（创建后改成真实地址）
 - [OpenAI 兼容 API 示例](https://github.com/YOUR_GITHUB_USERNAME/openai-compatible-api-examples)
 
+### 北洛API
+
+- 官网：https://beiluoxi.xyz/
+- 类型：托管多模型 API 网关，OpenAI SDK 的 `base_url` 为 `https://beiluoxi.xyz/v1`。
+- 接口：[中文接入文档](https://beiluoxi.xyz/help/_full.html)列出 Chat Completions、Responses 和 Anthropic Messages 的请求路径。
+- 计费：[公开价目](https://beiluoxi.xyz/api/provider/pricing)按模型与分组列出人民币输入、输出和缓存费用。
+
 ## 使用前请自己核对
 
 1. 价目是否公开、计费单位是美元还是人民币。
